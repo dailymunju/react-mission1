@@ -40,7 +40,7 @@ const Gallery = () => {
         setImgItem(data[cnt])
         const timer = setInterval(() => {
             next()
-        }, 1000);
+        }, 4000);
         
         return() => {
             clearTimeout(timer)
